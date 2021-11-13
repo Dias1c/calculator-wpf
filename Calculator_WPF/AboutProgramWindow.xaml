@@ -1,0 +1,48 @@
+﻿<Window x:Class="Calculator_WPF.AboutProgramWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Calculator_WPF"
+        mc:Ignorable="d"
+        Title="About" Height="450" Width="800" WindowStyle="ToolWindow" Background="{DynamicResource backgroundColor}">
+  <Grid>
+    <RichTextBox IsReadOnly="True" Background="{DynamicResource backgroundColor}" Foreground="{DynamicResource foregroundColor}" Margin="10">
+      <RichTextBox.Document>
+        <FlowDocument>
+          <Paragraph>
+            Это Пересозданная версия калькулятора.
+          </Paragraph>
+          <Paragraph>
+            - Почему Я его пересоздал? 
+            Так как превадущая версия калькулятора мне не нравилась (дизайн, код, сочитание цветтов)
+          </Paragraph>
+          <Paragraph>
+            - Сделано в учебных целях.
+          </Paragraph>
+          <Paragraph>
+            - Создатель: Kappasov Dias Zhumanuly
+          </Paragraph>
+          <Paragraph>
+            Vkontakte: https://vk.com/diaskappassov
+          </Paragraph>
+          <Paragraph>
+            Instagram:https://www.instagram.com/diaskappassov
+          </Paragraph>
+          <Paragraph>
+            My card Mastercard: 5169 4971 7663 0030
+            DIAS KAPPASSOV
+          </Paragraph>
+          <Paragraph>
+            GitHub: https://github.com/Dias1c
+          </Paragraph>
+          <Paragraph>
+            Telegram: 87471804820 / @diaskappassov
+          </Paragraph>
+            
+                    
+        </FlowDocument>
+      </RichTextBox.Document>
+    </RichTextBox>
+  </Grid>
+</Window>
